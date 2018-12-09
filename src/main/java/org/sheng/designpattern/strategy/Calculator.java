@@ -12,7 +12,12 @@ public class Calculator {
     }
 
     public int executeOperation(int num1, int num2) {
+        // todo 你在这里应该多加些东西
         return operation.doOperation(num1, num2);
+    }
+    
+    public void hello(String somebody) {
+        System.out.println("hello, " + somebody);
     }
 
 }
